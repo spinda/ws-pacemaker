@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+
+script:
+  - yarn run check && { yarn run test; } || { yarn run test; false; }
+
+cache:
+  yarn: true
+  directories:
+    - node_modules

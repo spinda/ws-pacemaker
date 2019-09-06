@@ -1,0 +1,35 @@
+{
+  "name": "ws-pacemaker",
+  "version": "0.1.0",
+  "description": "Drop-in WebSocket ping/pong heartbeat handling for the ws module",
+  "author": "Michael Smith <michael@spinda.net> (https://spinda.net)",
+  "license": "AGPL-3.0-or-later",
+  "homepage": "https://github.com/spinda/ws-pacemaker#readme",
+  "bugs": "https://github.com/spinda/ws-pacemaker/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spinda/ws-pacemaker.git"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "prettierx": "^0.7.1",
+    "ws": "^7.1.2"
+  },
+  "scripts": {
+    "check": "prettierx --check \"*.js\" \"**/*.js\"",
+    "fmt": "prettierx --write \"*.js\" \"**/*.js\"",
+    "test": "jest"
+  },
+  "keywords": [
+    "websocket",
+    "ws",
+    "heartbeat",
+    "ping",
+    "pong"
+  ]
+}
