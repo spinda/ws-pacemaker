@@ -17,8 +17,8 @@
   "dependencies": {},
   "devDependencies": {
     "jest": "^24.9.0",
-    "prettierx": "^0.7.1",
-    "ws": "^7.1.2"
+    "prettierx": "^0.11.0",
+    "ws": "^7.2.1"
   },
   "scripts": {
     "check": "prettierx --check \"*.js\" \"**/*.js\"",
