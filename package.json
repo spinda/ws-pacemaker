@@ -1,6 +1,6 @@
 {
   "name": "ws-pacemaker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Drop-in WebSocket ping/pong heartbeat handling for the ws module",
   "author": "Michael Smith <michael@spinda.net> (https://spinda.net)",
   "license": "AGPL-3.0-or-later",
